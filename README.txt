@@ -65,6 +65,7 @@ See the specs (tests) for further details.
 == REQUIREMENTS:
 
 * A transport system (eventmachine / packet / rev)
+* Bacon for the test (spec) suite.
 
 == INSTALL:
 
