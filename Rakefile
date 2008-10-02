@@ -10,6 +10,7 @@ require 'sized_header_protocol'
 task :default => 'spec:run'
 
 PROJ.name = 'sized_header_protocol'
+PROJ.summary = 'A simple chainable implementation of a basic sized header protocol'
 PROJ.authors = 'James Tucker'
 PROJ.email = 'raggi@rubyforge.org'
 PROJ.url = 'http://github.com/raggi/sized_header_protocol'
