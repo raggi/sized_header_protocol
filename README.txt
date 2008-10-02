@@ -6,7 +6,7 @@ sized_header_protocol
 == DESCRIPTION:
 
 A simple chainable implementation of a basic sized header protocol. The 
-'protocol' does not define it's transport, that is left as configurable. 
+'protocol' does not define its transport, that is left as configurable. 
 Implementing wire protocols should call send_data to construct packets or 
 frames and receive_data to deconstruct packets or frames.
 
@@ -14,7 +14,7 @@ frames and receive_data to deconstruct packets or frames.
 
 * Simplicity.
 * Not really suitable for streaming (this is not a problem, it's a feature).
-* Needs it's documentation filling in.
+* Needs its documentation filling in.
 
 == SYNOPSIS:
 
