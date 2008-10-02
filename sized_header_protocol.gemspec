@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["James Tucker"]
-  s.date = %q{2008-10-01}
+  s.date = %q{2008-10-02}
   s.default_executable = %q{sized_header_protocol}
   s.description = %q{A simple chainable implementation of a basic sized header protocol. The  'protocol' does not define it's transport, that is left as configurable.  Implementing wire protocols should call send_data to construct packets or  frames and receive_data to deconstruct packets or frames.}
   s.email = %q{raggi@rubyforge.org}

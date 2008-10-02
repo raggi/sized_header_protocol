@@ -2,8 +2,9 @@ History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/sized_header_protocol
+TODO.txt
 lib/sized_header_protocol.rb
+sized_header_protocol.gemspec
 spec/.bacon
 spec/helper.rb
 spec/runner
