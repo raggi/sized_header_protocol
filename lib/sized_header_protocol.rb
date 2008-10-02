@@ -35,7 +35,11 @@ class SizedHeaderProtocol
   end
 
   def more?
-    # XXX 1.9 has bytesize, too, but not bytewise slice.
+    # 1.9 has bytesize, too, but not bytewise slice.
+    # After quick investigation, it seems that the socket layer should be 
+    # setting the string encoding to 'BINARY' or ASCII-8BIT.
+    # http://www.ruby-doc.org/core-1.9/classes/Encoding.html
+    # http://www.ruby-doc.org/core-1.9/classes/String.html
     @buffer.size >= (@next_size || 4)
   end
 
