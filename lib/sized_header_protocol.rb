@@ -1,10 +1,12 @@
 class SizedHeaderProtocol
 
-  Version = '0.1.0'
+  Version = '0.1.1'
 
   def self.version
     Version
   end
+
+  attr_accessor :send_obj, :send_meth, :read_obj, :read_meth
 
   def initialize(send_obj, send_meth, read_obj, read_meth)
     @send_obj, @send_meth = send_obj, send_meth
